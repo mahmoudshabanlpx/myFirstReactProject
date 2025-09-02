@@ -1,6 +1,7 @@
 import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
 import Contact from "./Components/Contact.jsx";
+import ProductPage from "./Components/ProductPage.jsx";
 
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Home />
       <About />
       <Contact />
+      <ProductPage />
     </div>
   );
 }
